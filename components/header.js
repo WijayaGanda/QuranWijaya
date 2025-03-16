@@ -23,6 +23,7 @@ const Header = () => {
         )}
       </TouchableOpacity>
       <Text style={styles.title}>W QURAN</Text>
+      <Text style={styles.madeBy}>Made by Wijaya</Text>
     </View>
   );
 };
@@ -44,6 +45,13 @@ const styles = {
     fontSize: 20,
     fontWeight: "bold",
     marginLeft: 10,
+  },
+
+  madeBy: {
+    position: "absolute",
+    right: 10, 
+    fontSize: 12,
+    color: "black",
   },
 };
 

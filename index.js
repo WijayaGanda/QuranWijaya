@@ -1,4 +1,4 @@
 import { registerRootComponent } from "expo";
-import MainApp from "./MainApp"; // Pastikan yang dipanggil MainApp, bukan App
+import MainApp from "./MainApp";
 
 registerRootComponent(MainApp);

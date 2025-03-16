@@ -1,8 +1,8 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import HomeScreen from "./App"; // Pastikan App.js berisi HomeScreen
-import SurahDetail from "./DetailSurah"; // Pastikan DetailSurah.js ada
+import HomeScreen from "./App"; 
+import SurahDetail from "./DetailSurah"; 
 
 const Stack = createStackNavigator();
 

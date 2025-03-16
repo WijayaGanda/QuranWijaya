@@ -39,6 +39,7 @@ const App = ({ navigation }) => {
             onPress={() => navigation.navigate("SurahDetail", { nomorSurah: item.nomor })}
           >
             <Text style={{ fontSize: 18 }}>{item.nomor}. ({item.arti} {item.asma})</Text>
+            <Text style={{ fontSize: 12 }}>Ayat : {item.ayat} Jenis Surat : {item.type} </Text>
           </TouchableOpacity>
         )}
       />
